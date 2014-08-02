@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+/* Defalt variables */
+@import "compass";
+
+
+$bg_color : #34aadc;
+$white : #fff;
+$black : #000;
+$custom_font : 'HelveticaNeue-Light', Roboto;
+
+/* Default settings */
+body , html {
+	height: 100%;
+}
+
+h1 {
+	margin: 0;
+}
+
+/* custom page style */
+
+body {
+	background-color: $bg_color;
+	color: $white;
+}
+
+.wrapper {
+	color: $white;
+	height: 100%;
+
+	h1 {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		font: {
+			weight: normal;
+			size: 2em;
+			family: $custom_font;
+		}
+		color: $white;
+	}
+}
